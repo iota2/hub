@@ -37,6 +37,9 @@ tags
 *.rej
 *.patch
 
+# Gcov #
+*.gcno
+
 # Project #
 .cproject
 .project

@@ -34,5 +34,8 @@ script:
   - printenv
   - ./.travis.sh
 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
 # *********************** (C) COPYRIGHT iota2 ************END OF FILE**********
 
